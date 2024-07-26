@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-color: #0f1626;
+}
+
+.t-clr {
+  color: #0f1626;
+}
+
+.padMax {
+  max-width: 1250px;
+  margin: auto;
+  padding: 110px 20px 80px 20px;
+}
