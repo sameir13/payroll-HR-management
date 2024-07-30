@@ -13,6 +13,10 @@ const applicantSchema = new mongoose.Schema(
       trim: true,
     },
 
+    title: {
+      type: String,
+    },
+
     email: {
       type: String,
       required: [true, "Email is required!"],
